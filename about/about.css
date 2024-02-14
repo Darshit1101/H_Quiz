@@ -1,0 +1,105 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Testimonials */
+
+/* .caro{
+  background-color: burlywood;
+  
+} */
+.maouni {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .test{
+   width: 100%; 
+   text-align: center;
+   /* background-color: red; */
+  }
+  .five {
+    width: 1063px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    z-index: 111;
+  }
+  
+  .line {
+  
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    width: 700px;
+    margin-top: -1px;
+    /* Adjust the margin to center the line */
+    border: none;
+    height: 2px;
+    background-color: rgba(24, 23, 23, 0.361);
+    margin: auto;
+    z-index: -1;
+  }
+  
+  .moniImg {
+    margin-top: 90px;
+  }
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* background: rgb(83,93,255); */
+    background: linear-gradient(90deg, rgba(83,93,255,1) 0%, rgb(166, 180, 255) 50%, rgba(83,93,255,1) 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(255, 238, 215);
+
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,21 @@
+body{
+    /* background-color: rgb(158, 186, 233); */
+    background: rgb(83,93,255);
+background: linear-gradient(90deg, rgba(83,93,255,1) 0%, rgb(166, 180, 255) 50%, rgba(83,93,255,1) 100%);
+}
+
+    /* background-color: rgb(52,58,64); */
+
+    footer {
+        background-color: rgb(52,58,64);
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    footer p {
+        margin: 0;
+    }
+    

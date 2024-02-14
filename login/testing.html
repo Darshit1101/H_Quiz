@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download PDF</title>
+    <!-- Include Bootstrap for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <button id="downloadPdfButton" class="btn btn-primary">Download PDF</button>
+    </div>
+
+    <!-- Include the jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("downloadPdfButton").addEventListener("click", function() {
+                // Create a new jsPDF instance
+                const doc = new jsPDF();
+
+                // Add content to the PDF
+                doc.text("Hello, this is a PDF!", 10, 10);
+
+                // Save the PDF
+                doc.save("example.pdf");
+            });
+        });
+    </script>
+</body>
+</html>

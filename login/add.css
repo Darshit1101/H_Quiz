@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background: rgb(83,93,255);
+    background: linear-gradient(90deg, rgba(83,93,255,1) 0%, rgb(166, 180, 255) 50%, rgba(83,93,255,1) 100%); */
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+.container {
+    
+    background: rgb(248, 233, 206);
+
+}

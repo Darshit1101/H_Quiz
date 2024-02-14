@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title-text">
+      <div class="title login">Login Form</div>
+      <div class="title signup">Signup Form</div>
+    </div>
+    <div class="form-container">
+      <div class="slide-controls">
+        <input type="radio" name="slide" id="login" checked>
+        <input type="radio" name="slide" id="signup">
+        <label for="login" class="slide login">Login</label>
+        <label for="signup" class="slide signup">Signup</label>
+        <div class="slider-tab"></div>
+      </div>
+      <div class="form-inner">
+        <!-- Login Page -->
+        <form action="" class="login">
+          <div class="field">
+            <input type="text" placeholder="Email Address" id="inEmail"  required>
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Password" id="inPass" required>
+          </div>
+          
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Login" id="btnin">
+          </div>
+          <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+        </form>
+        <!--  -->
+
+        <!-- Sign UP Page -->
+        <form action="#" class="signup">
+          <div class="field">
+            <select class="form-select" aria-label="Default select example" id="upSelect">
+              <option value="user" selected>User</option>
+              <option value="admin">Admin</option>          
+            </select>
+            </div>
+          <div class="field">
+            <input type="text" placeholder="Email Address" id="upEmail" required>
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Password" id="upPass"  required>
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Confirm password" id="upCpass" required>
+          </div> 
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Signup" id="btnup">
+          </div>
+        </form>
+        <!--  -->
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="script.js"> </script>
+</body>
+</html>
